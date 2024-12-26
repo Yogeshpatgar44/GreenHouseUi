@@ -1,0 +1,29 @@
+{
+  "greenhouse": {
+    "actuators": {
+      "fan": "OFF",
+      "irrigation": "OFF",
+      "led": "OFF"
+    },
+    "sensors": {
+      "gasLevel": 0,
+      "humidity": 0,
+      "soilMoisture": 0,
+      "temperature": 0
+    },
+    "history": {
+      "temperature": {
+        "placeholder": true
+      },
+      "humidity": {
+        "placeholder": true
+      },
+      "soilMoisture": {
+        "placeholder": true
+      },
+      "gasLevel": {
+        "placeholder": true
+      }
+    }
+  }
+}

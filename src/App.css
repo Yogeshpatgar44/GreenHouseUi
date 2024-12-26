@@ -1,0 +1,156 @@
+/* Header logo styling */
+/* .sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Optional: ensures the header stays on top of other content */
+/* }  */
+/* body {
+  background-image: url('https://img.freepik.com/free-vector/modern-abstract-green-background-with-elegant-elements-vector-illustration_361591-3699.jpg?semt=ais_hybrid');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set to 100% of the viewport height */
+/* } */ 
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.dashboard-container {
+  padding: 16px;
+}
+
+.graph-paper {
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-content h6 {
+  margin-bottom: 8px;
+}
+
+.graph-container {
+  margin-top: 16px;
+}
+
+
+
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.card {
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+button {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+.card {
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1976d2;
+}
+
+
+
+
+
+
+
+
+.card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
